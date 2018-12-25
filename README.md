@@ -1,7 +1,7 @@
 # Detecting Early-stage Neurodegeneration with 3D Convolutional Neural Network
 
 ## Prediction module
-This is the repository of the prediction model used in our project **"Predicting Brain Age in Health People by Brain MRI"**. The related blogpost can be found [here](/spreadwyver.github.io/projects/brain/brain/)
+This is the repository of the prediction model used in our project **"Predicting Brain Age in Health People by Brain MRI"**. The related blogpost can be found [here](/spreadwyver.github.io/projects/brain/brain/).
 Here we use two measures extracted from subject's diffusion tensor images, FA and MD. The trained models achieved a result with MAE: 4.29 and Pearsons's correlation coefficient: 0.96.
 
 ### Dependencies
@@ -25,4 +25,5 @@ usage: ensemble_predict.py [-h] [-g]
 optional arguments:
 -h, --help    show help message and exit
 -g, --gpu_id  assign GPU ID, default 0
+-d, --dir     path of trained weights, default /model_for_prediction/model.pkl
 ```
