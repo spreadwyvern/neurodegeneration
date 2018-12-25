@@ -27,3 +27,5 @@ optional arguments:
 -g, --gpu_id  assign GPU ID, default 0
 -d, --dir     path of trained weights, default /model_for_prediction/model.pkl
 ```
+Input path to FA and MD measures of the test subject in numpy form. Samples are provided in the /samples folder, file names are the corresponding physical age and measures of DTI of the test subjects.
+For example, 23_md.npy is the MD measures of a 23-year-old test subject.
